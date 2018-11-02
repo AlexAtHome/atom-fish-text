@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Add some of fish text",
+        "command": "fish-text:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "РыбаТекст",
+          "submenu": [
+            {
+              "label": "Добавить абзац",
+              "command": "fish-text:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
