@@ -1,14 +1,21 @@
 {
   "name": "fish-text",
+  "description": "РыбаТекст - крутая альтернатива lorem ipsum",
+  "repository": "https://github.com/mamoru-kun/atom-fish-text",
   "main": "./lib/fish-text",
   "version": "0.0.0",
-  "description": "РыбаТекст - крутая альтернатива lorem ipsum",
   "keywords": [
+    "loremru",
+    "lorem ipsum",
+    "fishtext",
+    "fish text",
+    "fishtext api",
+    "russian",
+    "russia"
   ],
   "activationCommands": {
     "atom-workspace": "fish-text:toggle"
   },
-  "repository": "https://github.com/mamoru-kun/atom-fish-text",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
