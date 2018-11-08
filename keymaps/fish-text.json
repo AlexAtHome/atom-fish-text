@@ -1,5 +1,5 @@
 {
-  "atom-text-editor[data-grammar*=\"text\"]": {
-    "tab": "fish-text:toggle"
+  "atom-text-editor:not([mini])": {
+    "ctrl-tab": "fish-text:toggle"
   }
 }
