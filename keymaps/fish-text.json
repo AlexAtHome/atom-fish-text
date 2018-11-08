@@ -1,5 +1,6 @@
 {
   "atom-text-editor:not([mini])": {
-    "ctrl-tab": "fish-text:toggle"
+    "ctrl-tab": "fish-text:toggle",
+    "ctrl-shift-tab": "fish-text:toggle-html"
   }
 }

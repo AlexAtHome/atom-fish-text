@@ -14,7 +14,10 @@
     "russia"
   ],
   "activationCommands": {
-    "atom-workspace": "fish-text:toggle"
+    "atom-text-editor": [
+      "fish-text:toggle",
+      "fish-text:toggle-html"
+    ]
   },
   "license": "MIT",
   "engines": {
