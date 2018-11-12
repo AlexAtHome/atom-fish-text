@@ -1,3 +1,16 @@
+## 1.0.1
+
+- Исправил пункты в контекстном меню "Добавить абзац" и в меню "Packges → РыбаТекст → Добавить абзац". Они не работали, пока не будет сниппета `рыба` под курсором.
+
+<details>
+<summary>Engish</summary>
+<ul>
+  <li>_Fixed "Add paragraph" context menu and "Packges → РыбаТекст → Добавить абзац" commands not working witout the `рыба` snippet under the cursor._</li>
+</ul>
+</details>
+
+---
+
 ## 1.0.0 - First *Major* Release! Yay!
 - **Указание числа предложений в сниппете** путём написания циферки в конец сниппета. Например, `рыба2` вернёт два предложения, `рыба15` - 15 предложений и так далее. Максимально допустимое число - 100. Без указания числа добавится 3 предложения
 - **Вставка текста в HTML-теге `<p>`**: работает с таким же сниппетом при нажатии <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd>
@@ -6,7 +19,7 @@
 <summary>Engish</summary>
 <ul>
   <li>_**Defining sentences amount within the snippet** by typing the number of them. For example, `рыба2` will return 2 sentences, `рыба15` will return 15 sentences and so on. The maximum available number is 100. Without the number the snippet will return only 3 sentences._</li>
-  <li>- _**Inserting the text being wrapped in `<p>` HTML-tag.** Works with the same snippet by pressing the <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd> buttons._</li>
+  <li>_**Inserting the text being wrapped in `<p>` HTML-tag.** Works with the same snippet by pressing the <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd> buttons._</li>
 </ul>
 </details>
 
