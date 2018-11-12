@@ -1,4 +1,5 @@
 # РыбаТекст - lorem ipsum на стероидах
+[![APMDownloads](https://img.shields.io/apm/dm/fish-text.svg?style=for-the-badge)](https://atom.io/packages/fish-text) ![APMVersion](https://img.shields.io/apm/v/fish-text.svg?style=for-the-badge) ![APMLicense](https://img.shields.io/apm/l/fish-text.svg?style=for-the-badge)
 
 *This package will be more useful for russian speaking users. Basically, it adds an russian alternative of "lorem ipsum" based on universal speech code (see image below).*
 
