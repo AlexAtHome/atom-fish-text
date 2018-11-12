@@ -16,7 +16,9 @@
   "activationCommands": {
     "atom-text-editor": [
       "fish-text:toggle",
-      "fish-text:toggle-html"
+      "fish-text:toggle-html",
+      "fish-text:add",
+      "fish-text:add-html"
     ]
   },
   "license": "MIT",
