@@ -1,3 +1,20 @@
+## 2.0.0
+
+- Заменил обращения к FishText API на промисах на функции из [вот этого пакетика](https://www.npmjs.com/package/speech-code), в следствие чего текст теперь добавляется молниеносно.
+- Исправил баг, когда добавление циферки к сниппету `рыба` не давало никакого толка и всё равно возвращался текст из трёх предложений.
+- Переписал подписи пунктов меню.
+
+<details>
+<summary>Engish</summary>
+<ul>
+  <li>_Replaced promise based FishText API calls with the functions from [this package](https://www.npmjs.com/package/speech-code)._</li>
+  <li>_Fixed the snippet didn't see a number and still returned 3 sentences._</li>
+  <li>_Renamed menu labels._</li>
+</ul>
+</details>
+
+---
+
 ## 1.0.1
 
 - Исправил пункты в контекстном меню "Добавить абзац" и в меню "Packges → РыбаТекст → Добавить абзац". Они не работали, пока не будет сниппета `рыба` под курсором.
