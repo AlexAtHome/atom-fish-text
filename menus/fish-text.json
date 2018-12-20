@@ -2,11 +2,11 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Добавить абзац с рыбным текстом",
+        "label": "Добавить абзац с текстом",
         "command": "fish-text:add"
       },
       {
-        "label": "Добавить абзац с рыбным текстом в HTML",
+        "label": "Добавить абзац с текстом в теге <p>",
         "command": "fish-text:add"
       }
     ]
@@ -19,11 +19,11 @@
           "label": "РыбаТекст",
           "submenu": [
             {
-              "label": "Добавить абзац",
+              "label": "Добавить текст",
               "command": "fish-text:add"
             },
             {
-              "label": "Добавить абзац в HTML",
+              "label": "Добавить текст в теге <p>",
               "command": "fish-text:add-html"
             }
           ]
