@@ -1,3 +1,12 @@
+## 2.0.1
+
+- Поднял версию зависимости `speech-code`. Таким образом *появилось больше комбинаций текста*.
+
+<details>
+<summary>Engish</summary>
+*Upraised `speech-code` dependency version. That gives much more combinations of text.*
+</details>
+
 ## 2.0.0
 
 - Заменил обращения к FishText API на промисах на функции из [вот этого пакетика](https://www.npmjs.com/package/speech-code), в следствие чего текст теперь добавляется молниеносно.
