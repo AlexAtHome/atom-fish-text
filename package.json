@@ -3,7 +3,7 @@
   "description": "РыбаТекст - крутая альтернатива lorem ipsum",
   "repository": "https://github.com/mamoruuu/atom-fish-text",
   "main": "./lib/fish-text",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "keywords": [
     "loremru",
     "lorem ipsum",
