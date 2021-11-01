@@ -1,11 +1,36 @@
+## 2.0.2
+
+Слегка порефакторил код плагина:
+- Обновлена зависимость `speech-code` до версии 1.3.2 и выше.
+- Убрано дублирование кода.
+- Исправлен баг, когда подстановка текста не работала, когда сниппет `РЫБА` был написан большими буквами.
+- Добавлена проверка на отрицательное число предложений.
+
+<details>
+<summary>Engish</summary>
+In this version I slightly refactored the codebase:
+<ul>
+  <li><em>Updated `speech-code` dependency version up to `^1.3.2`.</em></li>
+  <li><em>Removed a small code duplication.</em></li>
+  <li><em>Fixed a bug with not working `РЫБА` snippet with all capital letters.</em></li>
+  <li><em>Adds a negative sentences count check.</em></li>
+</ul>
+</details>
+
+---
+
 ## 2.0.1
 
 - Поднял версию зависимости `speech-code`. Таким образом *появилось больше комбинаций текста*.
 
 <details>
 <summary>Engish</summary>
-*Upraised `speech-code` dependency version. That gives much more combinations of text.*
+<ul>
+  <li><em>Upraised `speech-code` dependency version. That gives much more combinations of text.</em></li>
+</ul>
 </details>
+
+---
 
 ## 2.0.0
 
